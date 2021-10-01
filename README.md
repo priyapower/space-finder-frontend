@@ -45,5 +45,16 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-# MY NOTES
-[Repo](https://github.com/priyapower/space-finder-frontend)
+## My Notes (To transfer to separate page soon)
+- [Repo](https://github.com/priyapower/space-finder-frontend)
+- Had trouble getting `npm start` to load
+    - Error Code
+        ```console
+        Could not find a declaration file for module 'react-dom'. ...implicitly has an 'any' type.
+        
+        If the 'react-dom' package actually exposes this module, consider sending a pull request to amend 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom`  TS7016
+
+        > 1 | import React from 'react';
+        ```
+    - These SO's helped me solve: [firstSolutionITried](https://stackoverflow.com/questions/61468169/could-not-find-a-declaration-file-for-module-react-dom) && [secondSolutionITried](https://stackoverflow.com/a/62194561)
+- 
